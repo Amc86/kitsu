@@ -1,0 +1,48 @@
+.main{
+  margin: 0px 80px 0px 135px;
+ }
+
+ .search{
+   width: 985px;
+   height: 150px;
+   padding-top: 100px;
+ }
+
+ .seccion{
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ .text{
+   font-family: sans-serif;
+   font-size: 15px;
+   font-weight: 800;
+   margin-top: 10px;
+   margin-bottom: 8px;
+ }
+
+ .img{
+   width: 180px;
+   margin: 0px 10px 40px 0px;
+   border-radius: 3px;
+ }
+
+ .general{
+   display: flex;
+ }
+
+ .categoryBox{
+   width: 315px;
+   height: 650px;
+   border-radius: 5px;
+   border: 1px solid rgba(200, 200, 200, 0.837);
+   background-color: white;
+   margin-left: 20px;
+   margin-top: 95px;
+   position: fixed;
+ }
+
+ .agrupacionBox{
+  margin-top: 0px;
+ }
+

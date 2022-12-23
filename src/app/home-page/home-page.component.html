@@ -1,0 +1,65 @@
+<div class="main">
+
+  <div class="general">
+
+    <div>
+
+      <div class="search">
+        <app-search></app-search>
+      </div>
+
+      <h1 class="text">Animes populares esta semana</h1>
+
+      <div class="seccion">
+        <div *ngFor="let popular of populars">
+          <img class="img" src="{{popular.attributes.posterImage.medium}}" alt="">
+        </div>
+      </div>
+
+      <h1 class="text">Animes más populares en emisión</h1>
+
+      <div class="seccion">
+        <div *ngFor="let maspop of maspops">
+          <img class="img" src="{{maspop.attributes.posterImage.medium}}" alt="">
+        </div>
+      </div>
+
+      <h1 class="text">Animes más esperados</h1>
+
+      <div class="seccion">
+        <div *ngFor="let esperado of esperados">
+          <img class="img" src="{{esperado.attributes.posterImage.medium}}" alt="">
+        </div>
+      </div>
+
+      <h1 class="text">Animes mejor evaluados</h1>
+
+      <div class="seccion">
+        <div *ngFor="let mejor of mejores">
+          <img class="img" src="{{mejor.attributes.posterImage.medium}}" alt="">
+        </div>
+      </div>
+
+      <h1 class="text">Animes más populares</h1>
+
+      <div class="seccion">
+        <div *ngFor="let maspopular of maspopulares">
+          <img class="img" src="{{maspopular.attributes.posterImage.medium}}" alt="">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="agrupacionBox">
+      <div class="categoryBox">
+
+        <div>categorías</div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+

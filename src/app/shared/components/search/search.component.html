@@ -1,0 +1,17 @@
+<div>
+  <h1 class="explore">Explorar Anime</h1>
+
+  <input class="searchButton" type="search" placeholder="¿Qué buscas?" alt="">
+
+  <p class="advSearch">O realiza una <a class="advSearch advSearch--link" href="">búsqueda avanzada</a></p>
+
+</div>
+
+
+<div *ngFor="let anime of animes2" | filter:filteredAnimes>
+
+  <h2>{{anime.attributes.slug}}</h2>
+  <img src="{{anime.attributes.posterImage.medium}}" alt="">
+  <p>{{anime.attributes.description}}</p>
+
+</div>
